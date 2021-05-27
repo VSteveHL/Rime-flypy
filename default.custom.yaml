@@ -1,0 +1,17 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sat Apr 24 13:51:00 2021"
+  rime_version: 1.5.3
+patch:
+  "ascii_composer/switch_key":
+    Shift_R: commit_code
+  "menu/page_size": 9
+  schema_list:
+    - {schema: luna_pinyin}
+    - {schema: double_pinyin_flypy}
+    - {schema: flypy}
+    - {schema: easy_en}
+  "switcher/hotkeys":
+    - "Control+Shift+F4"
