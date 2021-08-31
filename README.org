@@ -1,0 +1,41 @@
+** Rime config
+
+   把四叶草拼音输入方案的词典和官方的小鹤双频拼到了一起方便使用。
+
+   输入方案来源：
+   
+   - Rime 双拼输入方案 https://github.com/rime/rime-double-pinyin
+   - 四叶草输入方案 https://github.com/fkxxyz/rime-cloverpinyin
+
+   使用词典来源：
+
+   - 四叶草输入方案中整合的
+     - 四叶草单字字频
+     - 四叶草词组词频
+     - 清华大学开源词库 https://github.com/thunlp/THUOCL
+   - 搜狗网络流行新词 https://pinyin.sogou.com/dict/detail/index/4
+     (使用[[https://github.com/studyzy/imewlconverter][深蓝词库转换]]获得Rime格式的词典)
+   - Rime 萌娘百科词库 https://github.com/outloudvi/mw2fcitx
+
+** TODO：[0/1]
+   - [ ] emoji输入方案
+
+
+** 参考
+
+   1. Rime 定制指南 https://github.com/rime/home/wiki/CustomizationGuide
+   2. Rime 方案制作详解 https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+   3. 知乎 来自一个小白的Rime定制指南 https://www.zhihu.com/column/c_1176886232608600064
+   4. 「Rime 鼠须管」小鹤双拼配置指南 http://xiang578.com/post/rime.html
+   5. 鼠须管配色生成器 https://bennyyip.github.io/Rime-See-Me/
+
+
+** 更新日志
+
+   <2021-08-31 周二>
+   - 去掉了Rime中文维基词库（太大了）
+   - 添加搜狗网络流行热词词库
+   - 更新Rime萌娘百科词库到版本 20210815
+   - 去掉了 easy_en 输入法
+   - 从[[https://github.com/xiaochunjimmy/Sogou-Input-Skin][搜狗输入法极简皮肤]]里抄了几个配色方案
+   - 修正四叶草单字字频里“帧”字的拼音错误
