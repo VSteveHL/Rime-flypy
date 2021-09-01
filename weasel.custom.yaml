@@ -3,10 +3,12 @@ patch:
     # color_scheme: metroblue
     color_scheme: Boundary
     horizontal: true
+    font_face: Microsoft Yahei  # 字体
+    font_point: 14  # 字体大小
     
     layout: 
-      margin_x: 25  # 候选框x方向间距
-      margin_y: 25  # 候选框y方向间距
+      margin_x: 20  # 候选框x方向间距
+      margin_y: 20  # 候选框y方向间距
       candidate_spacing: 20  # 候选字之间的间距
     
     
